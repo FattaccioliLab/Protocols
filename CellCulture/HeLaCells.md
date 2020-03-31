@@ -25,8 +25,8 @@ Medium Renewal: 2 to 3 times per week
 ## Thawing a frozen HeLa cell stock
 
 This protocol is for thawing a frozen stock of HeLa cells and transferring the thawed cells to a T75cm² flask. Go through this protocol as quickly as possible.
-Before starting the protocol: - Pre-warm 50 mL of cell media to 37°C, and place 30 mL in a
-50 mL Falcon tubes just before beginning.
+Before starting the protocol: - Pre-warm 50 mL of cell media to 37°C, and place 30 mL in a 50 mL Falcon tubes just before beginning.
+
 1.	Quickly thaw the cells in a 37°C bath. Make sure the lid is tight and the cryo-tube
 remains upright in the bath to avoid contamination. You may want to carefully
 wipe the sides of the tube with 70% ethanol to avoid contamination.
@@ -51,7 +51,7 @@ the recovered cells is confirmed!
 2. Prepare a freeze medium consisting of complete growth medium and from 5 to 10%
 DMSO. Keep in the fridge 4°C.
 
-3. Collect cells by gentle centrifugation (10 minutes at 125 x g) and resuspend them in the freeze medium 4°C at a concentration of 1 x 106 to 5 x 106 viable cells/ml.
+3. Collect cells by gentle centrifugation (10 minutes at 125 x g) and resuspend them in the freeze medium 4°C at a concentration of 1 x 10^6 to 5 x 106 viable cells/ml.
 
 4. Label the appropriate number of vials with the name of the cell line and the date. Then add 1ml of the cell suspension to each of the vials and seal.
 
