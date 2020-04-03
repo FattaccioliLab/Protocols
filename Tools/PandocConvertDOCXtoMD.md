@@ -13,4 +13,5 @@ And it’s great. It even extracts images and saves them into a subfolder. I lov
 This is the command I used:
 
 $ pandoc -o output.md --extract-media=./ inputfile.docx
-It puts all images into a media/ subfolder anyway, so I set extract-media to the current directory. Just lovely.
+
+Source : https://christiantietze.de/posts/2019/07/convert-docx-to-markdown/
