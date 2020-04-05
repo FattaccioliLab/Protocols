@@ -21,6 +21,9 @@ https://www.finabio.net/product/amino-dextrans/
 
 - Fluorescent dyes : https://www.atto-tec.com
 
-- Desalting columns
+- Desalting columns :
+  - PD-25 (GE, available pre-packed by SIgma Aldrich)
+  - Zeba spin (Pierce Biotech, Thermo scientific)
+
 
 ##protocol
