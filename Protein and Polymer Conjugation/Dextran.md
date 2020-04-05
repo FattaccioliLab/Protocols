@@ -14,6 +14,10 @@ Link to the article : [pdf](assets/luby-phelps1988.pdf)
 Reference for the chemistry involved :
 G. Hermanson, Bioconjugate Techniques, Second Edi (Academic Press, Inc., 2008).
 Link to the pdf extract : [pdf](assets/aminoreactive.pdf)
+
+For the case of **ATTO dyes**, DMF in the protocol is replaced by DMSO.  
+Source : [Recommended Procedures for Labeling](assets/Procedures.pdf)
+
 ## Materials
 
 - Amino-dextran :
@@ -26,4 +30,6 @@ https://www.finabio.net/product/amino-dextrans/
   - Zeba spin (Pierce Biotech, Thermo scientific)
 
 
-##protocol
+## Protocol
+
+To be updated
