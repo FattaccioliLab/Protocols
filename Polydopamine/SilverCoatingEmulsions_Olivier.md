@@ -1,4 +1,4 @@
-﻿Tris buffer
+Tris buffer
 Weight 0.484g of Tris Base.
 Add 180mL of water.
 Scale the pH meter.
@@ -7,10 +7,12 @@ Complete to 200mL of solution with water.
 Other solutions
 Tris+tween20: 0,2%w/w of Tween20 in Tris buffer.
 Tris+Tween+PVP: PVP at 0.02%ww in the solution of Tris+Tween20.
+
 KMnO4 solution: 40mg.mL-1 = 0.25 mM in water (new at each time).
 Dopamine solution: 4.75mg.mL-1 in the Tris+tween20 solution (new at each time).
 Silver nitrate solution: 18mg/mL in Tris+Tween20.
 Ascorbic acid solution: 15.5mg.mL-1 in Tris+Tween20+PVP.
+
 Polydopamine coating
 1. Take 70µL of emulsion in a low binding Eppendorf and add 200µL of Tris+Tween20. Mix gently.
 2. Centrifugate 30s at 4000rounds/minute, then eliminate 200µL of the aqueous phase below.
@@ -20,7 +22,9 @@ Polydopamine coating
 6. Let incubate 2 hours in the obscurity in the rotor.
 7. Centrifuge 30s at 4000rounds/minute, then eliminate 180µL of the aqueous phase below. Add 
 180µL of Tris+Tween20. Mix gently. Repeat the rinse one time.
+
 Silver coating
+
 1. Add 200µL of the solution of silver nitrate.
 2. Let in incubate 90min in the rotor in obscurity.
 3. Take 50µL of the solution in the ependorf and put it in another. Do it again with other ependorfs. 4 
