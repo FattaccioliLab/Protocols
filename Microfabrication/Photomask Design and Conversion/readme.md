@@ -56,7 +56,7 @@ A license is needed by **CleWin5**, we'd better ask the engineer for help about 
 
 ### 3.1 Draw your mask layout with Autocad
 
-#### Set the unit as microns in the AutoCAD.
+#### 3.1.1 Set the unit as microns in the AutoCAD.
 
 Click **Format**→**Units** and select **Microns**.
 
@@ -69,17 +69,15 @@ height="3.1145833333333335in"}
 
 
 
-#### #### Read the following rules to make a DXF compatible with the masker !
+#### 3.1.2 Read the following rules to make a DXF compatible with the masker !
 
 Heidelberg provides a very good cheat sheet with the rules to follow to make a compatible dxf :
 
 <img title="" src=".//media/dxf_Rules.png" alt="" data-align="inline" width="463">
 
-#### Draw your mask design in AutoCAD,
+#### 3.1.3 Draw your mask design in AutoCAD,
 
 Every pattern and line must be a closed polygon closed in order to be recognized by printer. 
-
-
 
 
 
