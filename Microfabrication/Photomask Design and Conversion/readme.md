@@ -10,18 +10,20 @@ At IPGG, there are two ways to create photomasks :
 
 
 
-## Photoplotter
+## 1. Type of maskers at the IPGG technological  platform
+
+### Photoplotter
 
 The mask printer might only recognize the **.gbr** file, we have to
 transfer our photomask design file into it before sent it to engineer.
 
-## Heidelberg µPG 101
+### Heidelberg µPG 101
 
 The masker is able to work with different file formarts : gds II or dxf
 
 
 
-## Design procedure
+## 2. Design procedure
 
 The strategy is:
 
@@ -41,6 +43,8 @@ use **CleWin5** directly to design your mask, because some operation
 will leave many extra lines which will be a disaster for some mask print
 way.
 
+**Autocad** is free of charge with an academic licence.
+
 
 
 **Klayout** could be downloaded freely free of charge
@@ -48,11 +52,11 @@ way.
 
 A license is needed by **CleWin5**, we'd better ask the engineer for help about some operation.
 
+## 3. Detailed procedure.
 
+### 3.1 Draw your mask layout with Autocad
 
-Here the detailed procedure.
-
-**1.** Set the unit as Micro in the AutoCAD.
+#### Set the unit as microns in the AutoCAD.
 
 Click **Format**→**Units** and select **Microns**.
 
@@ -65,14 +69,17 @@ height="3.1145833333333335in"}
 
 
 
-**2.** Draw your mask design in AutoCAD, every pattern and line must be
-closed in order to be recognize by printer. Heidelberg provides a very good cheat sheet with the rules to follow to make a compatible dxf : 
+#### #### Read the following rules to make a DXF compatible with the masker !
+
+Heidelberg provides a very good cheat sheet with the rules to follow to make a compatible dxf :
+
+<img title="" src=".//media/dxf_Rules.png" alt="" data-align="inline" width="463">
+
+#### Draw your mask design in AutoCAD,
+
+Every pattern and line must be a closed polygon closed in order to be recognized by printer. 
 
 
-
-
-
-<img title="" src=".//media/dxf_Rules.png" alt="" data-align="inline">
 
 
 
