@@ -1,7 +1,25 @@
-Protocol for photomask file conversion
+**Protocol for photomask file conversion**
+
+
+
+At IPGG, there are two ways to create photomasks : 
+
+- A film photoplotter, very good for masks with features larger than 10-20 µm,
+
+- A chrome-quartz masker (Heidelberg) with minimal feature of 1 µm
+
+
+
+**Photoplotter**
 
 The mask printer might only recognize the **.gbr** file, we have to
 transfer our photomask design file into it before sent it to engineer.
+
+**Heidelberg µPG 101**
+
+
+
+
 
 The strategy is:
 
