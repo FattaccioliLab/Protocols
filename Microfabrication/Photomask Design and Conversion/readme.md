@@ -1,4 +1,4 @@
-**Protocol for photomask file conversion**
+# Protocol for photomask file drawing and conversion
 
 
 
@@ -10,22 +10,30 @@ At IPGG, there are two ways to create photomasks :
 
 
 
-**Photoplotter**
+## Photoplotter
 
 The mask printer might only recognize the **.gbr** file, we have to
 transfer our photomask design file into it before sent it to engineer.
 
-**Heidelberg µPG 101**
+## Heidelberg µPG 101
+
+The masker is able to work with different file formarts : gds II or dxf
 
 
 
-
+## Design procedure
 
 The strategy is:
 
-Draw the design by **AutoCAD** and save it as **.dxf** file then use
-**Klayout** transfer it into **.gds** file, finally transfer it again
-into **.gbr** file via **CleWin5**.
+
+
+- Draw the design by **AutoCAD** and save it as **.dxf** file 
+
+- Then use **Klayout**  to check it 
+
+- If you use the phoplotter, convert it to  **.gds** file
+
+
 
 **Attention:** Don't use AutoCAD save as **.gds** file directly, it will
 lead to some recognition error of mask printer. And it\'s better not to
@@ -33,9 +41,14 @@ use **CleWin5** directly to design your mask, because some operation
 will leave many extra lines which will be a disaster for some mask print
 way.
 
-The **Klayout** could be downloaded freely from
-<https://www.klayout.de/build.html>. A license is needed by **CleWin5**,
-we'd better ask the engineer for help about some operation.
+
+
+**Klayout** could be downloaded freely free of charge
+<https://www.klayout.de/build.html>. 
+
+A license is needed by **CleWin5**, we'd better ask the engineer for help about some operation.
+
+
 
 Here the detailed procedure.
 
@@ -45,14 +58,34 @@ Click **Format**→**Units** and select **Microns**.
 
 ![](.//media/image1.png){width="2.7708333333333335in"
 height="3.1063156167979002in"}
-![](.//media/image2.png){width="2.0962390638670167in"
+![](.//media/image2.png)
+
+{width="2.0962390638670167in"
 height="3.1145833333333335in"}
 
+
+
 **2.** Draw your mask design in AutoCAD, every pattern and line must be
-closed in order to be recognize by printer. The diameter of common wafer
+closed in order to be recognize by printer. Heidelberg provides a very good cheat sheet with the rules to follow to make a compatible dxf : 
+
+
+
+
+
+![dxf_Rules.png](/Users/jacques/Github/Protocols/Microfabrication/Photomask%20Design%20and%20Conversion/media/dxf_Rules.png)
+
+
+
+**3.** The diameter of common wafer
 is 4 inches (\~10.16 cm). It's better to use the pattern like
-![](.//media/image3.png){width="0.4867793088363955in"
-height="0.46875in"} to mark the boundary of the wafer and each chip
+
+
+![](.//media/image3.png)
+
+{width="0.4867793088363955in"
+height="0.46875in"} 
+
+to mark the boundary of the wafer and each chip
 which make the further cutting easier as shown below.
 
 ![](.//media/image4.png){width="4.054390857392826in" height="4.0625in"}
