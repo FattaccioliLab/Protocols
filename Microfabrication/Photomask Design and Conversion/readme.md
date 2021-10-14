@@ -60,12 +60,10 @@ A license is needed by **CleWin5**, we'd better ask the engineer for help about 
 
 Click **Format**→**Units** and select **Microns**.
 
-![](.//media/image1.png){width="2.7708333333333335in"
-height="3.1063156167979002in"}
-![](.//media/image2.png)
+![](.//media/image1.png)
 
-{width="2.0962390638670167in"
-height="3.1145833333333335in"}
+
+![](.//media/image2.png)
 
 
 
@@ -74,6 +72,12 @@ height="3.1145833333333335in"}
 Heidelberg provides a very good cheat sheet with the rules to follow to make a compatible dxf :
 
 <img title="" src=".//media/dxf_Rules.png" alt="" data-align="inline" width="463">
+
+#### 3.1.2 Avoiding the XOR mode on AutoCAS using the XOR mode with the µPG 101
+
+
+
+
 
 #### 3.1.3 Draw your mask design in AutoCAD,
 
@@ -87,44 +91,36 @@ is 4 inches (\~10.16 cm). It's better to use the pattern like
 
 ![](.//media/image3.png)
 
-{width="0.4867793088363955in"
-height="0.46875in"} 
+
 
 to mark the boundary of the wafer and each chip
 which make the further cutting easier as shown below.
 
-![](.//media/image4.png){width="4.054390857392826in" height="4.0625in"}
+![](.//media/image4.png)
 
-**3.** Confirm the polarity (positive or negative) of photomask
-according to the pattern and photoresist you used. You have to fill the
-area solid where you want to mask as the following example shown, this
-example was used for negative photoresist.
 
-![](.//media/image5.png){width="3.975in" height="3.9269149168853894in"}
+
+
 
 **4.** Save your design as **.dxf** file.
 
 Click **File**→**Save As** and select **AutoCAD 2018 DXF (\*.dxf)**.
 
 ![](.//media/image6.png){width="2.3108136482939634in" height="4.175in"}
-![](.//media/image7.png){width="3.783333333333333in"
-height="4.180261373578302in"}
+<img src=".//media/image7.png" title="" alt="" width="422">
 
 **5.** Open Klayout (Editor), click **File→Reader Option** and select
 \"**Merge lines and auto-close open contours**\" option under the label
 DXF, then import the **.dxf** file.
 
-![](.//media/image8.png){width="3.1916841644794403in"
-height="3.345812554680665in"}
-![](.//media/image9.png){width="3.1921456692913384in" height="3.35in"}
+<img title="" src=".//media/image9.png" alt="" width="490">
 
 Check your pattern and ensure every line and area is normal. Click
 **File**→**Save As** and select **GDS2 files**.
 
 ![](.//media/image10.png){width="2.797351268591426in"
 height="2.933333333333333in"}
-![](.//media/image11.png){width="3.4960509623797025in"
-height="2.8368055555555554in"}
+![](.//media/image11.png)
 
 If there are more than one layer in your file, please integrate them
 into one layer or make sure other unrelated layers (such as label or
@@ -137,15 +133,21 @@ Then you can send this **.GDS** file to engineer and ask them to help
 you complete the final format conversion to **.gbr** file (as shown in
 **Step 6**).
 
-**6.** Open **CleWin5** and import the **.GDS** file.
+### 3.5 Use **CleWin5** to convert the **.GDS** file to a **GBR** file.
+
+
+
+This last step is only for the photoplotter and is not *necessary*. Basically, the dxf or the gds are sufficient to be sent to the engineers.
+
+You need to give the polarity of the mask, to be sure to have it printed the good way.
+
+
 
 There is a 5 inch mask mark in the background, select your pattern and
 move it to overlap the mark.
 
-![](.//media/image13.png){width="3.440926290463692in"
-height="2.556800087489064in"}
-![](.//media/image14.png){width="2.8081780402449694in"
-height="2.582563429571304in"}
+![](.//media/image13.png)
+![](.//media/image14.png)
 
 Click **File**→**Export layer** and select **Gerber RS-274X files
 (\*.gbr)** option.
