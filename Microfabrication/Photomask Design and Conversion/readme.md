@@ -72,7 +72,7 @@ closed in order to be recognize by printer. Heidelberg provides a very good chea
 
 
 
-![dxf_Rules.png](/Users/jacques/Github/Protocols/Microfabrication/Photomask%20Design%20and%20Conversion/media/dxf_Rules.png)
+<img title="" src=".//media/dxf_Rules.png" alt="" data-align="inline">
 
 
 
